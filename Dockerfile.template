@@ -13,6 +13,7 @@ RUN apt-get update \
  cron \
  i2c-tools \
  nano \
+ lldpd \
  lighttpd \
  python-pip \
  python-dev \

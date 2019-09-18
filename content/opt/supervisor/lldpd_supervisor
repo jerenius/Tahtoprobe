@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+/etc/init.d/lldpd start
+
+# Allow any signal which would kill a process to stop server
+trap "service lldpd stop" HUP INT QUIT ABRT ALRM TERM TSTP
+
+while pgrep -u root lldpd > /dev/null; do sleep 5; done
+
