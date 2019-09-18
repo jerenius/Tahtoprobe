@@ -14,6 +14,7 @@ RUN apt-get update \
  cron \
  i2c-tools \
  nano \
+ lighttpd \
  python-pip \
  python-dev \
  python3-dev \
