@@ -29,14 +29,15 @@ tool for managing Linux devices. If you are not familiar with Balena, refer docu
 
 Quick and dirty steps for using Tahtoprobe this tool are:
 
-1. Clone this repository from github
+1. Clone Tahtoprobe repository from github
 2. Create application in Balena
 3. Add Balena as target (use git to do this, for syntax refer Balena website)
 4. Configure PROBENAME fleet or device variable in Balena to set LLDP hostname
 5. Make your modifications if needed and push your application to Balena
 6. In about 15 minutes you shoud have your LLDP probe up and running and visible in switch LLDP Neigbors table
 
-
+I might be adding more features in the future or I might not. Feel to your own version based on your
+needs.
 
 
 
