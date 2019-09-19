@@ -16,7 +16,7 @@ I have been using managed switches when LLDP is needed. I happened to have a spe
 Raspberry PI 2 just sitting ducks and waiting for a purpose. I decided to make a LLDP
 probe using that RPI 2. 
 
-I had some few requirements
+I had few requirements
 
 - easy deployment
 - simple
@@ -31,8 +31,10 @@ Quick and dirty steps for using Tahtoprobe this tool are:
 
 1. Clone this repository from github
 2. Create application in Balena
-3. Add Balena as target (use git to do this, for syntax refer Balena website
+3. Add Balena as target (use git to do this, for syntax refer Balena website)
 4. Configure PROBENAME fleet or device variable in Balena to set LLDP hostname
+5. Make your modifications if needed and push your application to Balena
+6. In about 15 minutes you shoud have your LLDP probe up and running and visible in switch LLDP Neigbors table
 
 
 
