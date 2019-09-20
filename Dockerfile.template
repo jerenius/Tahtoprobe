@@ -12,6 +12,7 @@ RUN apt-get update \
  curl \
  cron \
  i2c-tools \
+ fping \
  nano \
  lldpd \
  lighttpd \
